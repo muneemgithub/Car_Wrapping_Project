@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{ 
+    margin: 0px;
+    padding: 0px;
+    font-family: "Roboto", sans-serif;
+
+}
+body {
+    background-color: #1c1c1c; /* Dark background for the whole page */
+}
+/* .top-header{
+    background-color: #292929;  
+} */
+.input::placeholder {
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 20px;
+    opacity: 1;
+}
+.header{
+    background: #343738;
+}
+.nav-item{
+    margin: 15px;
+}
+.nav-link{
+    font-size: 24px;
+}
+.input-group{
+    width: 250px;
+}
+.input-group input::placeholder {
+    color: white;
+}
+/* Our Services */
+.Our_Services{
+    background-color: #292929;
+    height: 650px;
+}
+
+.card{
+    background-color: #343738;
+}
+h3, h2, h5, p {
+    color: #fff; /* Text color white */
+}
